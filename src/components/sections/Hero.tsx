@@ -1,6 +1,6 @@
 import { ArrowDownRight, Github, Linkedin, Mail, Phone } from "lucide-react";
 
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.jpeg";
 
 const socialLinks = [
   { label: "GitHub", href: "https://github.com", icon: Github },

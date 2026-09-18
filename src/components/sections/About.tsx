@@ -36,16 +36,16 @@ export function About() {
           </span>
         </header>
 
-        <div className="mt-10 grid gap-14 md:grid-cols-12 md:gap-10">
+        <div className="mt-10 grid gap-12 md:grid-cols-12 lg:gap-16">
           <div className="md:col-span-7">
-            <h2 className="font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="font-display text-4xl leading-tight text-foreground sm:text-5xl text-balance">
               I build the parts of a product that have to keep working
               <span className="text-primary"> after launch.</span>
             </h2>
 
-            <div className="mt-8 space-y-5 text-base leading-[1.75] text-muted-foreground">
+            <div className="mt-8 max-w-2xl space-y-5 text-base leading-[1.75] text-muted-foreground text-pretty">
               <p className="text-foreground/90">
-                <span className="font-display float-left mt-1 mr-3 text-6xl leading-[0.75] text-primary">
+                <span className="font-display float-left mt-1 mr-3 text-6xl leading-[0.75] text-primary select-none">
                   I
                 </span>
                 &apos;m a Mid-Level Software Engineer at Rever Hub Pvt Ltd in
@@ -74,7 +74,7 @@ export function About() {
             </div>
           </div>
 
-          <aside className="md:col-span-5 md:border-l md:border-border md:pl-10">
+          <aside className="md:col-span-5 md:border-l md:border-border md:pl-10 lg:pl-12">
             <span className="label-mono text-muted-foreground">
               How I work
             </span>

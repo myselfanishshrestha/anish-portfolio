@@ -31,7 +31,7 @@ export function Hero() {
           </span>
         </div>
 
-        <div className="grid gap-12 pt-10 md:grid-cols-12 md:gap-10">
+        <div className="grid gap-12 pt-10 md:grid-cols-12 lg:gap-16">
           <div className="md:col-span-7">
             <h1 className="font-display text-[3.25rem] leading-[0.95] tracking-tight text-foreground sm:text-7xl lg:text-[5.5rem]">
               Anish
@@ -40,7 +40,7 @@ export function Hero() {
               <span className="text-primary">.</span>
             </h1>
 
-            <p className="mt-8 max-w-md text-base leading-relaxed text-muted-foreground md:text-lg">
+            <p className="mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
               A mid-level software engineer writing production web platforms in
               React, Next.js, TypeScript, Node.js and Nest.js &mdash; and
               building the AI layer on top: retrieval pipelines, multi-step

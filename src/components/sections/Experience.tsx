@@ -9,11 +9,11 @@ export function Experience() {
           </span>
         </header>
 
-        <h2 className="font-display mt-8 max-w-2xl text-4xl leading-tight text-foreground sm:text-5xl">
+        <h2 className="font-display mt-8 max-w-3xl text-4xl leading-tight text-foreground sm:text-5xl text-balance">
           Where I have worked and studied.
         </h2>
 
-        <div className="mt-14 grid gap-16 md:grid-cols-12 md:gap-10">
+        <div className="mt-14 grid gap-12 md:grid-cols-12 lg:gap-16">
           {/* Professional experience */}
           <div className="md:col-span-7">
             <h3 className="label-mono text-foreground">
@@ -119,7 +119,7 @@ export function Experience() {
           </div>
 
           {/* Education & certificates */}
-          <div className="md:col-span-5 md:border-l md:border-border md:pl-10">
+          <div className="md:col-span-5 md:border-l md:border-border md:pl-10 lg:pl-12">
             <h3 className="label-mono text-foreground">
               Education & certificates
             </h3>

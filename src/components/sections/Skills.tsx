@@ -95,7 +95,7 @@ export function Skills() {
           </span>
         </header>
 
-        <h2 className="font-display mt-8 max-w-2xl text-4xl leading-tight text-foreground sm:text-5xl">
+        <h2 className="font-display mt-8 max-w-3xl text-4xl leading-tight text-foreground sm:text-5xl text-balance">
           The stack I reach for.
         </h2>
 
@@ -103,8 +103,8 @@ export function Skills() {
           {skillCategories.map((category, i) => (
             <div
               key={category.title}
-              className={`border-t border-border py-8 md:pr-10 ${
-                i % 2 === 1 ? "md:border-l md:pl-10" : ""
+              className={`border-t border-border py-8 md:pr-10 lg:pr-14 ${
+                i % 2 === 1 ? "md:border-l md:pl-10 lg:pl-14" : ""
               }`}
             >
               <div className="flex items-baseline gap-4">

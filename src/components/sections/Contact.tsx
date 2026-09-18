@@ -61,13 +61,13 @@ export function Contact() {
           </span>
         </header>
 
-        <div className="mt-10 grid gap-14 md:grid-cols-12 md:gap-10">
+        <div className="mt-10 grid gap-12 md:grid-cols-12 lg:gap-16">
           <div className="md:col-span-6">
-            <h2 className="font-display text-4xl leading-tight text-foreground sm:text-5xl">
+            <h2 className="font-display text-4xl leading-tight text-foreground sm:text-5xl text-balance">
               Have something worth building?
               <span className="text-primary"> Let&apos;s talk.</span>
             </h2>
-            <p className="mt-6 max-w-md text-base leading-relaxed text-muted-foreground">
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground text-pretty">
               I&apos;m open to full-time roles, contract work and collaborations
               on web platforms and AI-driven products. Write a line about what
               you&apos;re working on and I&apos;ll reply.
@@ -91,7 +91,7 @@ export function Contact() {
             </div>
           </div>
 
-          <div className="md:col-span-6 md:border-l md:border-border md:pl-10">
+          <div className="md:col-span-6 md:border-l md:border-border md:pl-10 lg:pl-12">
             <span className="label-mono text-muted-foreground">Details</span>
             <dl className="mt-6">
               {details.map((item) => (
@@ -102,7 +102,7 @@ export function Contact() {
                   <dt className="label-mono text-muted-foreground">
                     {item.label}
                   </dt>
-                  <dd className="text-base text-foreground">
+                  <dd className="text-base text-foreground break-all sm:break-normal">
                     {item.href ? (
                       <a
                         href={item.href}

@@ -45,7 +45,7 @@ export function Projects() {
           </span>
         </header>
 
-        <h2 className="font-display mt-8 max-w-2xl text-4xl leading-tight text-foreground sm:text-5xl">
+        <h2 className="font-display mt-8 max-w-3xl text-4xl leading-tight text-foreground sm:text-5xl text-balance">
           Things I have built, in order of how much I learned.
         </h2>
 
@@ -53,7 +53,7 @@ export function Projects() {
           {projects.map((project, i) => (
             <article
               key={project.title}
-              className="group grid gap-8 border-t border-border py-12 md:grid-cols-12 md:gap-10"
+              className="group grid gap-8 border-t border-border py-12 md:grid-cols-12 md:gap-10 lg:gap-14"
             >
               <div
                 className={`md:col-span-5 ${i % 2 === 1 ? "md:order-2" : ""}`}
@@ -77,17 +77,17 @@ export function Projects() {
                     {project.year}
                   </span>
                 </div>
-                <h3 className="font-display mt-3 text-3xl leading-tight text-foreground sm:text-4xl">
+                <h3 className="font-display mt-3 text-3xl leading-tight text-foreground sm:text-4xl text-balance">
                   {project.title}
                 </h3>
-                <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
+                <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground text-pretty">
                   {project.description}
                 </p>
                 <ul className="mt-6 flex flex-wrap gap-x-4 gap-y-2">
                   {project.tags.map((tag) => (
                     <li
                       key={tag}
-                      className="label-mono text-muted-foreground before:mr-2 before:text-primary before:content-['/']"
+                      className="label-mono whitespace-nowrap text-muted-foreground before:mr-2 before:text-primary before:content-['/']"
                     >
                       {tag}
                     </li>

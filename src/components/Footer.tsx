@@ -1,5 +1,5 @@
 const links = [
-  { label: "GitHub", href: "https://github.com/myselfanishshrestha" },
+  { label: "GitHub", href: "https://github.com" },
   { label: "LinkedIn", href: "https://linkedin.com" },
   { label: "Email", href: "mailto:myselfshresthaanish@gmail.com" },
   { label: "Resume", href: "/resume.pdf" },

@@ -2,8 +2,6 @@
 
 Personal portfolio website showcasing software engineering projects, technical skills, background, and experience. Built with a modern, high-performance web stack featuring React 19, TanStack Start & Router, and Tailwind CSS v4.
 
-**Live Website**: [https://anishshrestha-portfolio.bettercallsaul9841.workers.dev](https://anishshrestha-portfolio.bettercallsaul9841.workers.dev)
-
 ---
 
 ## Tech Stack

@@ -19,9 +19,9 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="paper-grain relative flex min-h-screen flex-col justify-between bg-background px-6 pt-28 pb-12 md:px-12 md:pt-36 lg:px-16"
+      className="paper-grain relative bg-background px-6 pt-28 pb-16 md:px-12 md:pt-36 md:pb-20 lg:px-16"
     >
-      <div className="mx-auto flex w-full max-w-7xl flex-1 flex-col justify-between">
+      <div className="mx-auto flex w-full max-w-7xl flex-col">
         <div className="flex items-baseline justify-between border-b border-border pb-4">
           <span className="label-mono text-muted-foreground">
             Portfolio 
@@ -92,10 +92,9 @@ export function Hero() {
                 height={620}
                 className="aspect-[4/5] w-full border border-border object-cover transition-transform duration-500 hover:scale-[1.01]"
               />
-              
             </figure>
 
-            <div className="mt-6 flex items-center gap-4 border-t border-border pt-5">
+            <div className="mt-4 flex items-center gap-5">
               {socialLinks.map((social) => {
                 const Icon = social.icon;
                 return (
@@ -106,9 +105,9 @@ export function Hero() {
                       ? { target: "_blank", rel: "noreferrer noopener" }
                       : {})}
                     aria-label={social.label}
-                    className="text-muted-foreground transition-colors hover:text-primary"
+                    className="text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    <Icon className="h-[1.05rem] w-[1.05rem]" />
+                    <Icon className="h-5 w-5" />
                   </a>
                 );
               })}
@@ -116,7 +115,7 @@ export function Hero() {
           </div>
         </div>
 
-        <dl className="mt-auto pt-10 grid grid-cols-1 border-t border-border sm:grid-cols-3">
+        <dl className="mt-14 grid grid-cols-1 border-t border-border sm:grid-cols-3 lg:mt-20">
           {facts.map((fact) => (
             <div
               key={fact.label}

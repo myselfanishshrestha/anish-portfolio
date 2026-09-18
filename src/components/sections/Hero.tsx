@@ -90,7 +90,7 @@ export function Hero() {
                 alt="Anish Shrestha, software engineer"
                 width={520}
                 height={620}
-                className="aspect-[4/5] w-full border border-border object-cover grayscale-[0.35] transition-[filter] duration-700 hover:grayscale-0"
+                className="aspect-[4/5] w-full border border-border object-cover transition-transform duration-500 hover:scale-[1.01]"
               />
               
             </figure>

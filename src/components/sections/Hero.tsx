@@ -4,7 +4,7 @@ import profileImg from "@/assets/profile.jpg";
 
 const socialLinks = [
   { label: "GitHub", href: "https://github.com", icon: Github },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/myselfanishshrestha/", icon: Linkedin },
   { label: "Email", href: "mailto:myselfshresthaanish@gmail.com", icon: Mail },
   { label: "Phone", href: "tel:+9779860989161", icon: Phone },
 ];

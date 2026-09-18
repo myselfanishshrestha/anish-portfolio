@@ -84,14 +84,25 @@ export function Hero() {
           </div>
 
           <div className="md:col-span-5">
-            <figure className="relative">
-              <img
-                src={profileImg}
-                alt="Anish Shrestha, software engineer"
-                width={520}
-                height={620}
-                className="aspect-[4/5] w-full border border-border object-cover transition-transform duration-500 hover:scale-[1.01]"
-              />
+            <figure className="group relative">
+              <div className="relative overflow-hidden rounded-2xl border border-border/80 bg-muted/20 shadow-xl shadow-foreground/5 transition-all duration-500 hover:border-border hover:shadow-2xl hover:shadow-primary/5">
+                <img
+                  src={profileImg}
+                  alt="Anish Shrestha, software engineer"
+                  width={520}
+                  height={620}
+                  className="aspect-[4/5] w-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+                />
+
+                {/* Status Badge */}
+                <div className="absolute bottom-3.5 left-3.5 inline-flex items-center gap-2 rounded-full border border-border/60 bg-background/90 px-3 py-1 shadow-md backdrop-blur-md">
+                  <span className="relative flex h-2 w-2">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+                  </span>
+                  <span className="label-mono font-medium text-foreground">Available for roles</span>
+                </div>
+              </div>
             </figure>
 
             <div className="mt-4 flex items-center gap-5">

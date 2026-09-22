@@ -9,7 +9,7 @@ const details = [
   },
   { label: "Phone", value: "+977 9860989161", href: "tel:+9779860989161" },
   { label: "Location", value: "Kathmandu, Nepal", href: null },
-  { label: "Availability", value: "Remote & international", href: null },
+  { label: "Availability", value: "Remote", href: null },
 ];
 
 export function Contact() {

@@ -49,22 +49,22 @@ export function About() {
                   I
                 </span>
                 &apos;m a Mid-Level Software Engineer at Rever Hub Pvt Ltd in
-                Kathmandu. I work end to end &mdash; from React and Next.js
-                interfaces down to RESTful microservices in Node.js and Nest.js
-                &mdash; with four-plus years of shipping to real users.
+                Kathmandu. I work across the full stack, from building React and Next.js
+                 interfaces to developing RESTful services with Node.js and Nest.js. Over the past four-plus years, I’ve been building, improving, and shipping applications that real users rely on.
+
               </p>
               <p>
-                Day to day that means real-time features with Redis and
-                Socket.IO, secure authentication with JWT/OAuth and role-based
-                access control, payment gateway integrations with custom
-                webhooks, and containerized deployments through Docker and
-                GitHub Actions.
+                In my day-to-day work, I build things like real-time features with Redis and Socket.IO,
+                handle user authentication and permissions, and integrate payment gateways with webhooks.
+                I also work with Docker and GitHub Actions to make deployments easier and more reliable.
+
+
               </p>
               <p>
-                I also build the AI side: retrieval-augmented generation with
-                Qdrant and OpenAI models, multi-step agent and tool-calling
-                pipelines, and Python regression and classification models for
-                trend analysis and forecasting.
+                I also work on the AI side of things, building RAG systems with Qdrant and OpenAI,
+                as well as multi-step AI workflows that can use different tools when needed.
+                I also use Python for regression and classification models to analyze trends and make forecasts.
+
               </p>
               <p>
                 Educated at Islington College / London Metropolitan University

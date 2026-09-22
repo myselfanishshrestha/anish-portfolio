@@ -41,10 +41,9 @@ export function Hero() {
             </h1>
 
             <p className="mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-              A mid-level software engineer writing production web platforms in
-              React, Next.js, TypeScript, Node.js and Nest.js &mdash; and
-              building the AI layer on top: retrieval pipelines, multi-step
-              agents, careful guardrails.
+              I’m a mid-level software engineer who builds real-world web applications using React, Next.js,
+               TypeScript, Node.js, and Nest.js. Alongside building reliable products, I work on integrating AI into applications through retrieval pipelines, multi-step agent workflows, and practical guardrails that keep AI systems useful and dependable.
+
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">

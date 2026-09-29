@@ -1,9 +1,17 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { defineConfig } from "vite";
+import { tanstackStart } from "@tanstack/start/vite";
 
 export default defineConfig({
-  tanstackStart: {
-    server: { entry: "server" },
-    // Enable SPA mode or prerendering for static hosting
-    spaMode: true, 
+  plugins: [
+    tanstackStart({
+      spaMode: true,
+    }),
+  ],
+  // Force Nitro to prerender the home page into index.html
+  nitro: {
+    prerender: {
+      routes: ["/"],
+      crawlLinks: true,
+    },
   },
 });

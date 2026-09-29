@@ -35,19 +35,13 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # ADD THIS DEBUG STEP HERE:
-      - name: Debug build folder
-        run: |
-          echo "=== Root Folder Contents ==="
-          ls -la
-          echo "=== Searching for dist or build folders ==="
-          find . -maxdepth 2 -type d -name "dist" -o -name "build" -o -name "out"
+      - name: Add .nojekyll
+        run: touch .output/public/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: './.output/public'
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

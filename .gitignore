@@ -36,5 +36,3 @@ dist-ssr
 .env.*
 !.env.example
 
-# AI generator metadata
-.lovable

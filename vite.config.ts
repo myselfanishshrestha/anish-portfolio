@@ -20,13 +20,9 @@ export default defineConfig({
     tailwindcss(),
     tanstackStart({
       server: { entry: "server" },
-      prerender: {
-        routes: ["/"],
-        crawlLinks: true,
-      },
     }),
     nitro({
-      preset: process.env.NITRO_PRESET || "cloudflare-module",
+      preset: process.env["NITRO_PRESET"] || "cloudflare-module",
     }),
     viteReact(),
   ],
